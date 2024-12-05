@@ -16,7 +16,7 @@ html,body{
 
 .photo{
     position: fixed;
-    background-image: url(/g\ .jpeg);
+    background-image: url("g\ .jpeg");
     height: 100vh;
     width: 30vw;
     background-size: cover;
