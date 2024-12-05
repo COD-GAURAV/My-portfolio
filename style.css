@@ -8,3 +8,77 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.photo{
+    position: fixed;
+    background-image: url(/g\ .jpeg);
+    height: 100vh;
+    width: 30vw;
+    background-size: cover;
+}
+
+.menu-bar{
+    height: 5vh;
+    width: 4vw;
+    position: absolute;
+   right: 2%;
+   top:3%;
+
+
+}
+
+.fa-bars{
+   position: absolute;
+   right: 2%;
+   top:3%;
+   font-size: 4vh;
+   cursor: pointer;
+}
+
+
+.content{
+    height: 60vh;
+    width: 50vw;
+    /* background-color: rgb(180, 180, 24); */
+}
+
+.content{
+    position: absolute;
+    top: 19vh;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.name{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.work{
+    margin-top: 3vh;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.down{
+    height: 8vh;
+    width: 15vw;
+    font-size: 2vh;
+    border: none;
+    border-radius: 0.2vh;
+    background-color:#f1f1f1;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+.down:hover{
+    background-color: lightsalmon;
+}
