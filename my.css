@@ -82,3 +82,85 @@ html,body{
 .down:hover{
     background-color: lightsalmon;
 }
+
+.my-gallery{
+    height: 200vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 80vh;
+    right: 10%;
+}
+
+
+.gallery{
+    /* text-align: center; */
+    font-size: 5vh;
+    font-weight: 300;
+   
+}
+
+
+.photo-mode{
+    height: 80vh;
+    width: 90%;
+    /* background-color:bisque; */
+    margin-left: 2.5vw;
+}
+
+.photo-1{
+    height: 62vh;
+    width: 23vw;
+    /* background-color: blueviolet; */
+    position: absolute;
+    right: 6%;
+    top: 6%;
+    background-image: url("photo-1.jpg");
+    background-size: cover;
+}
+
+.photo-2{
+    height: 62vh;
+    width: 20vw;
+    /* background-color: burlywood; */
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    background-image: url("photo-2\ \(2\).jpg");
+    background-size: cover;
+
+}
+
+.photo-3{
+    height: 40vh;
+    width: 44.1vw;
+    /* background-color: rgb(66, 202, 152); */
+    position: absolute;
+    top: 38%;
+    left: 6%;
+    background-image: url("photo-3.jpg");
+    background-size: cover;
+}
+
+.photo-4{
+    height: 60vh;
+    width: 20vw;
+    /* background-color: rgb(51, 8, 131); */
+    position: absolute;
+    top: 59%;
+    left: 6%;
+    background-image: url("photo-4.jpg");
+    background-size: cover;
+}
+
+
+.photo-5{
+    height: 60vh;
+    width: 23vw;
+    /* background-color: burlywood; */
+    position: absolute;
+    top: 59%;
+    right: 6%;
+    background-image: url("photo-5.jpg");
+    background-size: cover;
+}
