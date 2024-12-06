@@ -143,8 +143,8 @@ html,body{
 }
 
 .photo-4{
-    height: 60vh;
-    width: 20vw;
+    height: 70vh;
+    width: 18vw;
     /* background-color: rgb(51, 8, 131); */
     position: absolute;
     top: 59%;
@@ -155,8 +155,8 @@ html,body{
 
 
 .photo-5{
-    height: 60vh;
-    width: 23vw;
+    height: 75vh;
+    width: 25vw;
     /* background-color: burlywood; */
     position: absolute;
     top: 59%;
@@ -164,3 +164,105 @@ html,body{
     background-image: url("photo-5.jpg");
     background-size: cover;
 }
+
+.about{
+    height: 40vh;
+    width: 50vw;
+    /* background-color: blue; */
+    top: 280vh;
+    right: 10%;
+    position: absolute;
+}
+
+
+.about-1{
+    font-size: 5vh;
+    font-weight: 300;
+}
+
+
+.content-about{
+    height: 70%;
+    margin-top: 3vh;
+
+}
+
+hr{
+    margin-top: 3vh;
+}
+
+.c-b{
+    font-size: 2.6vh;
+    color: #757575;
+}
+
+.My-skill{
+    height: 80vh;
+    width: 50vw;
+    /* background-color: crimson; */
+    position: absolute;
+    top: 320vh;
+    right: 10%;
+
+}
+
+.Skill-heading{
+    font-size: 5vh;
+    font-weight: 300;
+   
+    
+}
+
+.skill-section{
+    height: 20%;
+    width: 100%;
+    margin-left: 0vw;
+    
+}
+
+.s-c-o{
+    font-weight: 300;
+}
+
+.skill-section.one{
+    margin-top: 6vh;
+}
+
+
+.percentage{
+    height: 30%;
+    width: 100%;
+    background-color: #88888d;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    color: white;
+    font-size: 2.3vh;
+    
+}
+
+.part-1{
+    height: 100%;
+    width: 95%;
+    background-color: #616161;
+    text-align: center;
+}
+
+
+.part-2{
+    height: 100%;
+    width: 85%;
+    background-color: #616161;
+    text-align: center;
+    
+}
+
+
+.part-3{
+    height: 100%;
+    width: 80%;
+    background-color: #616161;
+    text-align: center;
+    
+}
+
+
