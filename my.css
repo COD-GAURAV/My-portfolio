@@ -608,7 +608,7 @@ hr{
         height: 68vh;
         position: absolute;
         left: 0%;
-        top: 305%;
+        top: 315%;
 
     }
 
@@ -640,7 +640,7 @@ hr{
         width: 90%;
         position: absolute;
         left: 5vw;
-        top: 356%;
+        top: 373%;
     }
 
     .s-c-o{
@@ -660,7 +660,7 @@ hr{
         height: 32vh;
         position: absolute;
         left: 6%;
-        top: 448%;
+        top: 471%;
     }
     
     .Repu-heading{
@@ -682,7 +682,7 @@ hr{
         width: 90%;
         position: absolute;
         left: 5%;
-        top: 492%;
+        top: 526%;
     }
 
     .map{
@@ -722,6 +722,3 @@ hr{
 
 
 
-@media(max-height:720px){
-    
-}
