@@ -15,6 +15,10 @@ a{
     color: #616161;
 }
 
+.my-heading{
+    display: none;
+}
+
 .container{
     height: 100vh;
     width: 95vw;
@@ -476,12 +480,21 @@ hr{
 
 @media(max-width:720px){
 
+
+    body{
+        height: 100vh;
+        border-style: 100vw;
+    }
+
     .container{
-        height: 1600px;
-        width: 720px;
+        height: 100vh;
+        width: 100vw;
     }
 
     .photo{
+        height: 36vh;
+        width: 65vw;
+        left: 10%;
         display: none;
     }
 
@@ -489,10 +502,13 @@ hr{
         width: 100vw;
         height: 10vh;
         /* position: absolute; */
-        background-color: #616161;
+        background-color: rgb(53, 66, 250);
         top: 0%;
+       
+        left: 0vw;
         display: flex;
-        justify-content: end;
+        justify-content: center;
+
         align-items: center;
 
        
@@ -500,8 +516,26 @@ hr{
     }
     .content{
         width: 80%;
-        height: 58vh;
+        height: 35vh;
+        top: 13vh;
         /* background-color: #757575; */
+    }
+
+    .my-heading{
+        display: flex;
+        position: absolute;
+        left: 3vh;
+        font-size: 3vh;
+        color: #cacad1;
+        cursor: pointer;
+    }
+
+
+    .fa-bars{
+        font-size: 2vh;
+        top: 3.5vh;
+        right: 5vw;
+        color: #cacad1;
     }
 
 
@@ -517,7 +551,7 @@ hr{
         width: 100%;
         position: absolute;
         left: 0%;
-        top: 68%;
+        top: 55%;
 
     }
 
@@ -574,7 +608,7 @@ hr{
         height: 68vh;
         position: absolute;
         left: 0%;
-        top: 319%;
+        top: 305%;
 
     }
 
@@ -603,35 +637,90 @@ hr{
 
 
     .My-skill{
-        width: 100%;
+        width: 90%;
         position: absolute;
         left: 5vw;
-        top: 370%;
+        top: 356%;
+    }
+
+    .s-c-o{
+        font-size: 2.3vh;
+    }
+
+    .h3-pro{
+        font-size: 1.9vh;
     }
 
 
-    .one 
+    
 
 
     .my-Friends{
-        width: 100%;
+        width: 90%;
+        height: 32vh;
         position: absolute;
-        left: 0%;
-        
-        top: 485%;
+        left: 6%;
+        top: 448%;
+    }
+    
+    .Repu-heading{
+        font-size: 4vh;
+    }
+
+    .friend-photos{
+        gap: 0vw;
+        width: 100%;
+        font-size: 1.7vh;
+    }
+
+    .name-friends{
+        font-size: 1.7vh;
     }
 
 
     .contact-us{
-        width: 100%;
+        width: 90%;
         position: absolute;
-        left: 0%;
-        
-        top: 540%;
+        left: 5%;
+        top: 492%;
+    }
+
+    .map{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .send-message{
+        width: 100%;
+    }
+
+    .send-para{
+        font-size: 3vh;
     }
 
 
+    .input{
+        border: 2px solid 
+    }
+    
+    .send-me{
+        width: 50vw;
+    }
+
+    .footer{
+        width: 100%;
+        height: 32vh;
+        position: absolute;
+        top: 351%;
+        left: 0%;
+    }
+
+
+
 }
+
+
+
 
 @media(max-height:720px){
     
