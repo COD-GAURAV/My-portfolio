@@ -10,6 +10,11 @@ html,body{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: #616161;
+}
+
 .container{
     height: 100vh;
     width: 95vw;
@@ -452,8 +457,8 @@ hr{
     color: blue;
 }
 
-.fa-instagram{
-    color: linear-gradient( right, #f9ce34, #ee2a7b ,#6228d7);
+.fa-instagram:hover{
+    color: violet;
 }
 
 .fa-github:hover{
@@ -467,4 +472,167 @@ hr{
 
 .fa-discord:hover{
     color: purple;
+}
+
+@media(max-width:720px){
+
+    .container{
+        height: 1600px;
+        width: 720px;
+    }
+
+    .photo{
+        display: none;
+    }
+
+    .menu-bar{
+        width: 100vw;
+        height: 10vh;
+        /* position: absolute; */
+        background-color: #616161;
+        top: 0%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+       
+
+    }
+    .content{
+        width: 80%;
+        height: 58vh;
+        /* background-color: #757575; */
+    }
+
+
+    .name{
+        font-size: 4vh;
+    }
+
+    .down{
+        width: 62vw;
+    }
+
+    .my-gallery{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 68%;
+
+    }
+
+    .heading-gallery{
+        display: block;
+    }
+
+    .gallery{
+        font-size: 4vh;
+       margin-left: 4vw;
+
+    }
+
+    .photo-1{
+        width: 90%;
+        height: 59vh;
+        position: absolute;
+        left: 5%;
+        top:3% ;
+    }
+
+    .photo-2{
+        width: 90%;
+        height: 59vh;
+        position: absolute;
+        left: 5%;
+        top:33% ;
+    }
+
+    .photo-3{
+        display: none;
+    }
+
+    .photo-4{
+        width: 90%;
+        height: 59vh;
+        position: absolute;
+        left: 5%;
+        top:63% ;
+
+    }
+
+    .photo-5{
+        width: 90%;
+        height: 59vh;
+        position: absolute;
+        left: 5%;
+        top:93% ;
+    }
+
+    .about{
+        
+        width: 100%;
+        height: 68vh;
+        position: absolute;
+        left: 0%;
+        top: 319%;
+
+    }
+
+    .about-heading{
+        width: 100%;
+
+    }
+
+    .about-1{
+        font-size: 5vh;
+        margin-left: 5vw;
+    }
+
+    .content-about{
+        width: 90%;
+        margin-left: 5vw;
+    }
+
+    .c-b{
+        font-size: 2vh;
+    }
+
+
+
+
+
+
+    .My-skill{
+        width: 100%;
+        position: absolute;
+        left: 5vw;
+        top: 370%;
+    }
+
+
+    .one 
+
+
+    .my-Friends{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        
+        top: 485%;
+    }
+
+
+    .contact-us{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        
+        top: 540%;
+    }
+
+
+}
+
+@media(max-height:720px){
+    
 }
